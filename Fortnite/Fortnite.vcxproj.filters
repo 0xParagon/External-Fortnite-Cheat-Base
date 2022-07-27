@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Includes\Mapper\Kdmapper\kdmapper.cpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Mapper\Kdmapper\intel_driver.cpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Mapper\Kdmapper\portable_executable.cpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Mapper\Kdmapper\service.cpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Mapper\Kdmapper\utils.cpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\kdmapper.hpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\intel_driver_resource.hpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\intel_driver.hpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\portable_executable.hpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\nt.hpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\service.hpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\utils.hpp">
+      <Filter>Driver\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\loader.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\driver.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\bytes.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\cheat.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\sdk.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\structs.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\globals.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\render.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\menu.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Auth\auth.hpp">
+      <Filter>KeyAuth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{f607e8d6-c576-410f-b0fb-ac8089d4edc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ed75c461-8a8c-41e2-9551-a85b4de83294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Mapper">
+      <UniqueIdentifier>{4fa72e5f-e7a7-4ae3-94f3-dea57c5dd93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{7d2a3ee2-ed36-43a4-81ec-8059b47d6c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{39406d82-fe78-47f5-8e04-b83774d34cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyAuth">
+      <UniqueIdentifier>{352ab445-b1cc-4f5d-8a17-199941a889f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Includes\Auth\libcurl.lib">
+      <Filter>KeyAuth</Filter>
+    </Library>
+    <Library Include="..\Includes\Auth\library_x64.lib">
+      <Filter>KeyAuth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
