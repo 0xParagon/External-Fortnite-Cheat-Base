@@ -1,7 +1,7 @@
 # Astreal Fortnite External Base (No-Driver)
 
 ### Note(s)
-- `Auto-Update / UWorld Decryption` *(TeamID Needs Manually Updated*
+- `Auto-Update / UWorld Decryption` *(TeamID Needs Manually Updated)*
 - `Controller Support`
 - `Memory Aimbot`
 - `Bounding Visuals`
