@@ -16,9 +16,9 @@
 
 using namespace KeyAuth;
 
-std::string name = XorStr("Miraka1337").c_str();
-std::string ownerid = XorStr("rWBmAI070I").c_str();
-std::string secret = XorStr("e7edcb7e5c1a5728ca2fd83459fb530fd77121e31a4a12741b3acc7220fd0237").c_str();
+std::string name = XorStr("").c_str(); 		// Application ID
+std::string ownerid = XorStr("").c_str(); 	// Owner Profile ID
+std::string secret = XorStr("").c_str(); 	// Application UID 
 std::string version = XorStr("1.0").c_str();
 std::string url = XorStr("https://keyauth.win/api/1.1/").c_str();
 std::string sslPin = XorStr("ssl pin key (optional)").c_str();
