@@ -16,6 +16,7 @@
 
 using namespace KeyAuth;
 
+// i dont suggest using keyauth, you can just create session skips
 std::string name = XorStr("").c_str(); 		// Application ID
 std::string ownerid = XorStr("").c_str(); 	// Owner Profile ID
 std::string secret = XorStr("").c_str(); 	// Application UID 
